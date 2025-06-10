@@ -322,68 +322,88 @@ export const bestLoction = [
 
 export const clientData = [
     {
-        image:client1,
-        quote:'bg-primary',
-        desc:'Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken specimens.',
-        name:'Adam Williams',
-        position:'CEO Of Microwoft'
+        image: client1,
+        quote: 'bg-primary',
+        desc: 'I had an excellent experience. The team was highly professional and ensured that every detail was taken care of smoothly from start to finish.',
+        name: 'Rahul Mehta',
+        position: 'Founder & CEO, UrbanNest Realty'
     },
     {
-        image:client2,
-        quote:'bg-success',
-        desc:'Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken specimens.',
-        name:'Retha Deowalim',
-        position:'CEO Of Apple'
+        image: client2,
+        quote: 'bg-success',
+        desc: 'Their customer support and property recommendations were spot on. I found the perfect rental in just a few days!',
+        name: 'Priya Sharma',
+        position: 'CTO, NextGen Solutions'
     },
     {
-        image:client3,
-        quote:'bg-purple',
-        desc:'Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken specimens.',
-        name:'Sam J. Wasim',
-        position:'Pio Founder'
+        image: client3,
+        quote: 'bg-purple',
+        desc: 'Professional service and great attention to detail. I would definitely recommend them to anyone looking to buy or rent property.',
+        name: 'Amit Verma',
+        position: 'Director, Verma & Associates'
     },
     {
-        image:client4,
-        quote:'bg-seegreen',
-        desc:'Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken specimens.',
-        name:'Usan Gulwarm',
-        position:'CEO Of Facewarm'
+        image: client4,
+        quote: 'bg-seegreen',
+        desc: 'The team was responsive, transparent, and guided us throughout the entire process. Very happy with our new home.',
+        name: 'Sneha Kapoor',
+        position: 'Marketing Head, Digital Vibes India'
     },
     {
-        image:client5,
-        quote:'bg-danger',
-        desc:'Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken specimens.',
-        name:'Shilpa Shethy',
-        position:'CEO Of Zapple'
+        image: client5,
+        quote: 'bg-danger',
+        desc: 'Thanks to their efficient service, we found a commercial space that met all our requirements within our budget.',
+        name: 'Karan Singh',
+        position: 'CEO, StartPro Technologies'
     },
-]
+];
+
 
 export const pricingData = [
     {
-        value:49,
-        title:'Basic Package',
-        feature:['5+ Listings','Contact With Agent','3 Month Validity','7x24 Fully Support','50GB Space'],
-        btn:'btn btn-light-primary rounded full-width',
-        bg:'bg-dark',
-        titleText:'text-info'
+        value: 249,
+        title: 'Basic Package',
+        feature: [
+            '5 Property Listings',
+            'Limited Agent Contact',
+            '3-Month Validity',
+            'Email Support',
+            '10GB Cloud Storage'
+        ],
+        btn: 'btn btn-light-primary rounded full-width',
+        bg: 'bg-dark',
+        titleText: 'text-info'
     },
     {
-        value:99,
-        title:'PLATINUM PACKAGE',
-        feature:['5+ Listings','Contact With Agent','3 Month Validity','7x24 Fully Support','50GB Space'],
-        btn:'btn btn-dark rounded full-width',
-        bg:'bg-primary',
-        titleText:'text-light'
+        value: 699,
+        title: 'Standard Package',
+        feature: [
+            '15 Property Listings',
+            'Priority Agent Contact',
+            '6-Month Validity',
+            '24/7 Support via Chat & Email',
+            '100GB Cloud Storage'
+        ],
+        btn: 'btn btn-light-primary rounded full-width',
+        bg: 'bg-dark',
+        titleText: 'text-info'
     },
     {
-        value:199,
-        title:'STANDARD PACKAGE',
-        feature:['5+ Listings','Contact With Agent','3 Month Validity','7x24 Fully Support','50GB Space'],
-        btn:'btn btn-light-primary rounded full-width',
-        bg:'bg-dark',
-        titleText:'text-info'
-    },
-]
+        value: 499,
+        title: 'Platinum Package',
+        feature: [
+            'Unlimited Listings',
+            'Dedicated Relationship Manager',
+            '12-Month Validity',
+            '24/7 Premium Support',
+            '500GB Secure Cloud Storage'
+        ],
+        btn: 'btn btn-dark rounded full-width',
+        bg: 'bg-primary',
+        titleText: 'text-light'
+    }
+];
+
 
 export const achievementData = [
     {
@@ -479,7 +499,7 @@ export const blogData = [
         id:2,
         image:p20,
         date:'29th Nov 2025',
-        title:'List of benifits and impressive Resido services',
+        title:'List of benifits and impressive Gharkul services',
         desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.'
     },
     {
@@ -500,7 +520,7 @@ export const blogData = [
         id:5,
         image:p23,
         date:'5th May 2025',
-        title:'List of benifits and impressive Resido services',
+        title:'List of benifits and impressive Gharkul services',
         desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.'
     },
     {

@@ -39,53 +39,57 @@ export default function Video() {
             </div>
         </div>
 
-        <section>
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-10 text-center">
-                        <div className="sec-heading center mb-4">
-                            <h2>Achievement</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                        </div>
-                    </div>
+       <section>
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-10 text-center">
+                <div className="sec-heading center mb-4">
+                    <h2>Our Achievements</h2>
+                    <p>We take pride in the milestones we've achieved through dedication, innovation, and client satisfaction. Here are some of our key accomplishments that define our journey.</p>
                 </div>
-                <Achievement/>
             </div>
-        </section>
-        <div className="clearfix"></div>
+        </div>
+        <Achievement />
+    </div>
+</section>
+<div className="clearfix"></div>
 
-        <section className="pt-0">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-10 text-center">
-                        <div className="sec-heading center">
-                            <h2>Recent Property For Rent</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                        </div>
-                    </div>
+<section className="pt-0">
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-10 text-center">
+                <div className="sec-heading center">
+                    <h2>Latest Rental Listings</h2>
+                    <p>Explore our most recent property listings available for rent, carefully curated to meet a variety of needs and lifestyles. Find your next home with us today.</p>
                 </div>
-                <PropertySlider/>
             </div>
-        </section>
+        </div>
+        <PropertySlider />
+    </div>
+</section>
+
 
         <section className="bg-light">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-10 text-center">
-                        <div className="sec-heading center">
-                            <h2>Featured Property For Sale</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                        </div>
-                    </div>
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-10 text-center">
+                <div className="sec-heading center">
+                    <h2>Featured Properties for Sale</h2>
+                    <p>Discover our handpicked selection of premium properties currently available for sale. Each listing is chosen for its exceptional value, location, and investment potential.</p>
                 </div>
-                <SellPropertyOne border={false}/>
-                <div className="row">
-                    <div className="col-lg-12 col-md-12 col-sm-12 text-center mt-4">
-                        <Link to="/listings-list-with-sidebar" className="btn btn-primary px-lg-5 rounded">Browse More Properties</Link>
-                    </div>
-                </div>
-            </div>		
-        </section>
+            </div>
+        </div>
+        <SellPropertyOne border={false} />
+        <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 text-center mt-4">
+                <Link to="/listings-list-with-sidebar" className="btn btn-primary px-lg-5 rounded">
+                    Browse More Properties
+                </Link>
+            </div>
+        </div>
+    </div>		
+</section>
+
 
         {/* <section>
             <div className="container">
@@ -108,33 +112,34 @@ export default function Video() {
 
         <div className="clearfix"></div>
 
-        <section className="gray-bg">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-10 text-center">
-                        <div className="sec-heading center">
-                            <h2>Good Reviews by Customers</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                        </div>
-                    </div>
+       <section className="gray-bg">
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-10 text-center">
+                <div className="sec-heading center">
+                    <h2>What Our Customers Say</h2>
+                    <p>We’re proud to have earned the trust and appreciation of our clients. Read what our satisfied customers have to say about their experiences with our services.</p>
                 </div>
-                <ClientOne/>
             </div>
-        </section>
+        </div>
+        <ClientOne />
+    </div>
+</section>
 
-        <section>
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-lg-7 col-md-10 text-center">
-                        <div className="sec-heading center">
-                            <h2>See our packages</h2>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</p>
-                        </div>
-                    </div>
+<section>
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-7 col-md-10 text-center">
+                <div className="sec-heading center">
+                    <h2>Explore Our Pricing Packages</h2>
+                    <p>Choose from our flexible pricing plans designed to suit different needs and budgets. Whether you're looking for a short-term deal or long-term value, we’ve got you covered.</p>
                 </div>
-                <PricingOne/>
-            </div>	
-        </section>
+            </div>
+        </div>
+        <PricingOne />
+    </div>	
+</section>
+
 
         <FooterTop bg="theme-bg"/>
         <Footer/>
