@@ -11,7 +11,7 @@ import bed from '../../assets/img/bed.svg'
 import bathtub from '../../assets/img/bathtub.svg'
 import move from '../../assets/img/move.svg'
 
-import Navbar from '../../components/navbar/navbar'
+import NavLight from '../../components/navbar/nav-light';
 import PropertyDetail from '../../components/property-detail';
 import DetailSidebar from '../../components/detail-sidebar';
 import FooterTop from '../../components/footer-top';
@@ -36,7 +36,7 @@ export default function SinglePropertyOne() {
     let data = propertyData.find((item:any)=>item.id === parseInt(id))
   return (
     <>
-        <Navbar transparent={false}/>   
+        <NavLight/>   
 
         <div className="featured_slick_gallery gray">
             <div className="featured_slick_gallery-slide home-slider">
@@ -59,7 +59,7 @@ export default function SinglePropertyOne() {
                                 <span className="label text-light bg-success">For Sale</span>
                                 <h3 className='mt-3'>{data?.name ? data?.name : 'Jannat Graynight Mood In Siver Colony, London'}</h3>
                                 <span><i className="lni-map-marker"></i> 778 Country St. Panama City, FL</span>
-                                <h3 className="prt-price-fix text-primary mt-2">$7,600<sub>/month</sub></h3>
+                                <h3 className="prt-price-fix text-primary mt-2">Rs.7,600<sub>/month</sub></h3>
                                 <div className="list-fx-features">
                                     <div className="listing-card-info-icon">
                                         <div className="inc-fleat-icon me-1"><img src={bed} width="13" alt=""/></div>3 Beds

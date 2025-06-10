@@ -30,7 +30,7 @@ export default function Video() {
                 <div className="row justify-content-center">
                     <div className="col-lg-9 col-md-11 col-sm-12">
                         <div className="inner-banner-text text-center">
-                            <p className="lead-i text-light">Find Best Places in United States</p>
+                            <p className="lead-i text-light">Find Best Places in Pune</p>
                             <h2 className="text-light"><span className="font-normal">Find Your</span> Perfect Place.</h2>
                         </div>
                        <FormTwo/>
@@ -87,7 +87,7 @@ export default function Video() {
             </div>		
         </section>
 
-        <section>
+        {/* <section>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-7 col-md-10 text-center">
@@ -104,7 +104,8 @@ export default function Video() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
+
         <div className="clearfix"></div>
 
         <section className="gray-bg">

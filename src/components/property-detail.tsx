@@ -234,7 +234,7 @@ export default function PropertyDetail() {
             
         </div>
         
-        <div className="rating-overview">
+        {/* <div className="rating-overview">
             <div className="rating-overview-box">
                 <span className="rating-overview-box-total">4.2</span>
                 <span className="rating-overview-box-percent">out of 5.0</span>
@@ -281,9 +281,9 @@ export default function PropertyDetail() {
                         </span>
                     </div>
             </div>
-        </div>
+        </div> */}
         
-        <div className="property_block_wrap style-2">
+        {/* <div className="property_block_wrap style-2">
             <div className="property_block_wrap_header">
                 <Link to="#" onClick={()=>setOpen8(!open8)} className={open8 ? '' : 'collapsed'}><h4 className="property_block_title">102 Reviews</h4></Link>
             </div>
@@ -334,9 +334,9 @@ export default function PropertyDetail() {
                     <Link to="#" className="reviews-checked text-primary"><i className="fas fa-arrow-alt-circle-down mr-2"></i>See More Reviews</Link>
                 </div>
             </div>
-        </div>
+        </div> */}
         
-        <div className="property_block_wrap style-2">
+        {/* <div className="property_block_wrap style-2">
             <div className="property_block_wrap_header">
                 <Link to="#" onClick={()=>setOpen9(!open9)} className={open9 ? '' : 'collapsed'}><h4 className="property_block_title">Nearby</h4></Link>
             </div>
@@ -451,9 +451,9 @@ export default function PropertyDetail() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         
-        <div className="property_block_wrap style-2">
+        {/* <div className="property_block_wrap style-2">
             <div className="property_block_wrap_header">
                 <Link to="#" onClick={()=>setOpen10(!open10)} className={open10 ? '' : 'collapsed'}><h4 className="property_block_title">Write a Review</h4></Link>
             </div>
@@ -490,7 +490,7 @@ export default function PropertyDetail() {
                     </form>
                 </div>
             </div>
-        </div>
+        </div> */}
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/navbar/navbar'
+import NavLight from '../components/navbar/nav-light'
 
 import aboutImg from '../assets/img/sb.png'
 import aboutImg2 from '../assets/img/vec-2.png'
@@ -29,7 +29,7 @@ export default function AboutUs() {
     ]
   return (
     <>
-    <Navbar transparent={false}/>   
+    <NavLight/>   
 
     <div className="page-title">
         <div className="container">

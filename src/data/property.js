@@ -75,30 +75,30 @@ export const featureProperty = [
     {
         image:p1,
         name:'oss vengel New Apartment',
-        loction:'Sans Fransico',
+        loction:'Wakad, Pune',
         type:'For Sale',
-        value:'$4,240'
+        value:'Rs.4,240'
     },
     {
         image:p4,
         name:'Montreal Quriqe Apartment',
-        loction:'Liverpool, London',
+        loction:'Wakad, Pune',
         type:'For Rent',
-        value:'$7,380'
+        value:'Rs.7,380'
     },
     {
         image:p6,
         name:'Curmic Studio For Office',
-        loction:'Montreal, Canada',
+        loction:'Wakad, Pune',
         type:'For Buy',
-        value:'$8,730'
+        value:'Rs.8,730'
     },
     {
         image:p5,
         name:'Montreal Quebec City',
-        loction:'Sreek View, New York',
+        loction:'Wakad, Pune',
         type:'For Rent',
-        value:'$6,240'
+        value:'Rs.6,240'
     },
 ]
 
@@ -108,7 +108,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
     {
@@ -116,7 +116,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
     {
@@ -124,7 +124,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
     {
@@ -132,7 +132,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
     {
@@ -140,7 +140,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
     {
@@ -148,7 +148,7 @@ export const userProperty = [
         name:'My List property Name',
         value:154,
         listed:'Listed in Rentals and Apartments',
-        city:'KASIA',
+        city:'Pune',
         size:'Area:540 sq ft'
     },
 ]
@@ -158,24 +158,24 @@ export const bookMarkProperty = [
         image:p1,
         name:'Serene Uptown',
         loction:'6 Bishop Ave. Perkasie, PA',
-        value:'$900 / monthly'
+        value:'Rs.900 / monthly'
     },
     {
         image:p2,
         name:'Oak Tree Villas',
         loction:'71 Lower River Dr. Bronx, NY',
-        value:'$535,000'
+        value:'Rs.535,000'
     },
     {
         image:p3,
         name:'Selway Villas',
         loction:'33 William St. Northbrook, IL',
-        value:'$420,000'
+        value:'Rs.420,000'
     },
     {
         image:p4,
         name:'Town Manchester',
         loction:'7843 Durham Avenue, MD',
-        value:'$420,000'
+        value:'Rs.420,000'
     },
 ]

@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/navbar/navbar'
+import NavLight from '../components/navbar/nav-light'
 import FooterTop from '../components/footer-top'
 import Footer from '../components/footer'
 
 export default function Contact() {
   return (
     <>
-        <Navbar transparent={false}/>   
+        <NavLight/>   
 
         <div className="page-title">
             <div className="container">

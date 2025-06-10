@@ -9,19 +9,29 @@ export default function DetailSidebar() {
   return (
     <>
     <div className="like_share_wrap b-0">
-        <ul className="like_share_list">
-            <li><Link to="#" className="btn btn-likes" data-toggle="tooltip" data-original-title="Share"><i className="fas fa-share"></i>Share</Link></li>
-            <li><Link to="#" className="btn btn-likes" data-toggle="tooltip" data-original-title="Save"><i className="fas fa-heart"></i>Save</Link></li>
-        </ul>
-    </div>
+    <ul className="like_share_list">
+        <li>
+            <a href="https://wa.me/918624096239" target="_blank" rel="noopener noreferrer" className="btn btn-likes" data-toggle="tooltip" data-original-title="WhatsApp">
+                <i className="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </li>
+        <li>
+            <a href="tel:+918624096239" className="btn btn-likes" data-toggle="tooltip" data-original-title="Call">
+                <i className="fas fa-phone-alt"></i> Call
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
     
     <div className="details-sidebar">
         <div className="sides-widget">
             <div className="sides-widget-header bg-primary">
                 <div className="agent-photo"><img src={user} alt=""/></div>
                 <div className="sides-widget-details">
-                    <h4><Link to="#">Shivangi Carlo</Link></h4>
-                    <span><i className="lni-phone-handset"></i>(91) 123 456 7895</span>
+                    <h4><Link to="#">Rutuja Khanvilkar</Link></h4>
+                    <span><i className="lni-phone-handset"></i>(+91) 9823798423</span>
                 </div>
                 <div className="clearfix"></div>
             </div>

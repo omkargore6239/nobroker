@@ -101,7 +101,7 @@ export default function CtaTwo() {
                         <div className="counter-info-groups">
                             <div className="single-counter-wrap">
                                 <div className="single-counter-title">
-                                    <h2>$<CountUp className="ctr" end={310}/>M</h2>
+                                    <h2>Rs.<CountUp className="ctr" end={310}/>M</h2>
                                 </div>
                                 <div className="single-counter-subtitle">
                                     <p>Owned from<br/>properties transaction</p>

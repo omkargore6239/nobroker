@@ -1,1 +1,54 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Set the font family and base font size for the entire application */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /* Base font size */
+}
+
+/* Adjust font sizes for different elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem; /* 40px */
+}
+
+h2 {
+  font-size: 2rem; /* 32px */
+}
+
+h3 {
+  font-size: 1.75rem; /* 28px */
+}
+
+h4 {
+  font-size: 1.5rem; /* 24px */
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+}
+
+/* Adjust font sizes for other elements as needed */
+p {
+  font-size: 1rem; /* 16px */
+}
+
+label {
+  font-size: 1rem; /* 16px */
+}
+
+input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem; /* 16px */
+}
+
+/* Add more specific styles as needed */

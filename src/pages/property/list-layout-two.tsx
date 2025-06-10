@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import Navbar from '../../components/navbar/navbar'
+import NavLight from '../../components/navbar/nav-light'
 import FilterTop from '../../components/filter-top'
 import SideFilter from '../../components/side-filter'
 import FooterTop from '../../components/footer-top'
@@ -15,7 +15,7 @@ export default function ListLayoutTwo() {
    
   return (
     <>
-        <Navbar transparent={false}/>
+        <NavLight/>
         <section className="gray-simple">
             <div className="container">
                 <div className="row m-0">

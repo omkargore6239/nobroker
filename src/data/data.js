@@ -81,21 +81,21 @@ export const navProperty = [
     {
         image:p1,
         title:'Loss vengel New Apartment',
-        loction:'Sans Fransico',
+        loction:'Wakad, Pune',
         tag:'For Sale',
         value:'Rs.4,240'
     },
     {
         image:p2,
         title:'Montreal Quriqe Apartment',
-        loction:'Liverpool, London',
+        loction:'Wakad, Pune',
         tag:'For Rent',
         value:'Rs.7,380'
     },
     {
         image:p3,
         title:'Curmic Studio For Office',
-        loction:'Montreal, Canada',
+        loction:'Montreal, Pune',
         tag:'For Buy',
         value:'Rs.8,730'
     },
@@ -109,21 +109,21 @@ export const navProperty = [
     {
         image:p5,
         title:'Loss vengel New Apartment',
-        loction:'Sans Fransico',
+        loction:'Wakad, Pune',
         tag:'For Sale',
         value:'Rs.4,240'
     },
     {
         image:p6,
         title:'Montreal Quriqe Apartment',
-        loction:'Liverpool, London',
+        loction:'Wakad, Pune',
         tag:'For Rent',
         value:'Rs.7,380'
     },
     {
         image:p7,
         title:'Curmic Studio For Office',
-        loction:'Montreal, Canada',
+        loction:'Montreal, Pune',
         tag:'For Buy',
         value:'Rs.8,730'
     },
@@ -144,7 +144,7 @@ export const propertyData = [
         tag2:'For Rent',
         type:'Apartment',
         name:'The Green Canton Chrysler',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -157,7 +157,7 @@ export const propertyData = [
         tag2:'For Sell',
         type:'House',
         name:'Purple Flatiron House',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -170,7 +170,7 @@ export const propertyData = [
         tag2:'For Rent',
         type:'Building',
         name:'The Green Canton Chrysler',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -183,7 +183,7 @@ export const propertyData = [
         tag2:'For Sell',
         type:'Condos',
         name:'The Red Freedom Tower',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -196,7 +196,7 @@ export const propertyData = [
         tag2:'For Rent',
         type:'Villa',
         name:'The Donald Dwelling',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -209,7 +209,7 @@ export const propertyData = [
         tag2:'For Sell',
         type:'Building',
         name:'Red Tiny Hearst Castle',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -222,7 +222,7 @@ export const propertyData = [
         tag2:'For Sell',
         type:'Condos',
         name:'The Red Freedom Tower',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -235,7 +235,7 @@ export const propertyData = [
         tag2:'For Rent',
         type:'Villa',
         name:'The Donald Dwelling',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -248,7 +248,7 @@ export const propertyData = [
         tag2:'For Sell',
         type:'Building',
         name:'Red Tiny Hearst Castle',
-        loction:'210 Zirak Road, Canada',
+        loction:'Wakad road , Pune',
         size:'3BHK',
         beds:'3 Beds',
         sqft:'1800 SQFT',
@@ -280,42 +280,42 @@ export const workData = [
 export const bestLoction = [
     {
         image:c1,
-        location:'San Francisco, California',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c2,
-        location:'Dunao, California',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c3,
-        location:'Liverpool, London',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c4,
-        location:'San Francisco, New York',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c5,
-        location:'New Orleans, Louisiana',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c6,
-        location:'Los Angeles',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c7,
-        location:'Dubai, UAE',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
     {
         image:c8,
-        location:'Dhaka, UAE',
+        location:'Wakad, Pune',
         properties:'95 Properties'
     },
 ]
